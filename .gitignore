@@ -1,0 +1,23 @@
+# Rust build files
+/target/
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Optional backup files
+*.log
+*.tmp
+
+# macOS files
+.DS_Store
+
+# IDE files (if you use VSCode, IntelliJ, etc.)
+*.swp
+.idea/
+.vscode/
+
+# By Cargo's recommendation
+Cargo.lock
